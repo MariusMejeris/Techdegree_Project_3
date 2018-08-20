@@ -1,0 +1,365 @@
+/**********************************************
+***************BASIC STYLES*******************/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  color: #384047;
+}
+
+
+h1,
+h3,
+p {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+h3 {
+	
+	font-size: 1.5em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+
+
+/**********************************************
+***************HEADER STYLES******************/
+.code {
+	font-size: 1.5em;
+	padding: 1.2em;
+	background: #111d30;
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+
+legend.news-text {
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-bottom: 25px;
+	
+}
+
+
+.news-p-text {
+	
+	max-width: 90%;
+	margin: 0 auto;
+	opacity: 0.8;
+	font-size: 0.85em;
+}
+
+
+
+
+
+/**********************************************
+***************FORM STYLES********************/
+form {
+  max-width: 100%;
+  margin: 10px auto;
+  border-radius: 8px;
+  
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="address"],
+input[type="city"],
+input[type="state"],
+input[type="post_code"],
+input[type="county"],
+textarea,
+select,
+#county_name {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #afafaf;
+  color: #FFF;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 25px; 
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 8px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+label,
+input {
+	
+	border-radius: 8px;
+}
+
+textarea {
+  
+  
+  width: 100%;
+  height: 120px;
+  background-color: #afafaf;
+  color: #FFF;
+  border-radius: 8px;
+}
+
+
+#post_c {
+	
+	width: 40%;
+}
+/**********************************************
+***************CONTACT STYLES*******************/
+
+.contact label {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+.contact input, select, textarea {
+	display: block;
+}
+
+fieldset.contact,
+fieldset.topics {
+	
+	padding: 0;
+	
+}
+
+/**********************************************
+***************TOPICS STYLES*******************/
+.topics label{
+	display: block;
+}
+
+.topics legend {
+font-size: 1.3em;
+font-weight: bolder;
+	
+}
+
+.topics input {
+	
+	margin: 8px;
+}
+
+fieldset.topics {
+	
+	padding-top: 25px;
+}
+.topics label {
+	
+	padding-bottom: 15px;
+}
+
+/**********************************************
+**************LIGHT STYLES********************/
+
+label.li-topics {
+  display: inline;
+
+}
+
+.li-topics {
+	line-height: 1.5;
+}
+/**********************************************
+**************BORDER STYLES********************/
+.border_bottom {
+	
+	border: 1px solid;
+	margin-bottom: 45px;
+	color: #111d30;
+}
+
+.double-border {
+    margin-top:35px;
+	margin-bottom: 35px; 
+}
+
+.double-border hr {
+   margin:3px;
+   border:2px solid #111d30;
+}
+
+.thin-border {
+    border: 1px solid #111d30 !important;
+}
+
+
+/**********************************************
+***************FORM ATTRIBUTE STYLES**********/
+input::placeholder {
+	
+	opacity: 1;
+	font-style: italic;
+	text-align: right;
+	padding-right: 10px;
+	color: #FFF;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="address"]:focus,
+input[type="number"]:focus,
+input[type="city"]:focus,
+input[type="post_code"]:focus,
+textarea:focus,
+#county_name:focus
+ {
+    background-color: #111d30;
+	transition-timing-function: ease-out;
+	transition: 0.7s;
+}
+
+input[type=checkbox]:checked + label {
+  color: #111d30;
+  font-style:italic;
+  font-weight: bold;
+}
+
+
+input[type=radio]:checked + label {
+  color: #111d30;
+  font-style:italic;
+  font-weight: bold;
+}
+
+
+/*********************************************
+*********************FORMAT STYLES***********/
+.format label {
+	padding-top: 15px;
+}
+
+.format label strong {
+	
+}
+
+div.format {
+	
+	padding-top: 15px;
+	margin-top: 10px;
+}
+
+/**********************************************
+***************BUTTON STYLES********************/
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #111d30;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  transition: 0.5s;
+}
+
+
+button:hover {
+	
+	color: #FFF;
+	background-color: #223963;
+	transition-timing-function: ease-out;
+	transition: 0.5s;
+	cursor: pointer;
+} 
+
+
+/*********************************************
+*********************FOOTER******************/
+
+footer{
+	
+	
+    color: #C8C8C8;
+    text-align: center;
+    margin-top:25px;
+    margin-bottom: 200px;
+    font-size: .9em;
+
+}
+
+
+.ft-text {
+	
+	font-style: italic;
+	margin-top: 15px;
+}
+
+/**********************************************
+***************MEDIA QUERIES STYLE************/
+
+
+@media (min-width: 768px) {
+
+form {
+	
+	width: 700px;
+}
+
+    .contact input,
+	.contact label,
+	.contact select{
+		display: inline-block;
+    }
+	
+    .contact label {
+        width: calc(25% - 2px);
+    }
+
+    .contact input,
+	.contact select,
+	#county_name
+	{
+        width: calc(75% - 2px);
+		
+    }
+	
+	footer {
+        margin-bottom: 320px;
+    }
+
+}

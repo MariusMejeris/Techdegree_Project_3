@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    </head>
+<body>
+	<div class="form-header">
+		<h1 class="code">the code review</h1>
+		<h3>Signup for our newsletter</h3>
+		<p class="news-p-text">Get the latest news on how your code is doing right in your inbox</p>
+		
+</div>
+		
+<div class="container">					<!--CONTAINER Starts-->
+										<!--FORM Starts-->
+	
+<form action="index.html" method="post">
+	<div class="double-border"><hr/><hr class="thin-border" /></div>
+		<main>
+			<fieldset class="contact"> <!--contatc form starts-->
+				<legend class="news-text">Contact Information</legend>
+					<label for="name">Full Name</label>
+					<input type="text" id="name" name="user_name" placeholder="Required*" required>
+					
+					<label for="mail">Email Address</label>
+					<input type="email" id="mail" name="user_email" placeholder="Required*" required>
+					
+					<label for="phone">Phone Number</label>
+					<input type="number" id="phone" name="user_telephone" placeholder="Optional">
+					
+					<label for="street_address">Street Address</label>
+					<input type="text" id="street_address" name="user_address" placeholder="Required*" required>
+					
+					<label for="city_name">City</label>
+					<input type="text" id="city_name" name="user_city" placeholder="Required*" required>
+					
+					<label for="county_name">County</label>
+				<select id="county_name" name="user_county">
+					<option value="ChooseCounty">Choose County</option>
+						<optgroup label="B">
+							<option value="Bedfordshire">Bedfordshire</option>
+							<option value="Bedfordshire">Bedfordshire</option>
+							<option value="Berkshire">Berkshire</option>
+							<option value="Buckinghamshire">Buckinghamshire</option>
+						</optgroup>
+					
+						<optgroup label="C">
+							<option value="Cambridgeshire">Cambridgeshire</option>
+							<option value="Cheshire">Cheshire</option>
+							<option value="Cornwall">Cornwall</option>
+							<option value="County Durham">County Durham</option>
+						</optgroup>
+					
+						<optgroup label="D">
+							<option value="Derbyshire">Derbyshire</option>
+							<option value="Dorset">Dorset</option>
+						</optgroup>
+					
+						<optgroup label="E">
+							<option value="East Riding of Yorkshire">East Riding of Yorkshire</option>
+							<option value="East Sussex">East Sussex</option>
+							<option value="Essex">Essex</option>
+						</optgroup>
+					
+						<optgroup label="G">
+							<option value="Gloucestershire">Gloucestershire</option>
+							<option value="Greater London">Greater London</option>
+							<option value="Greater Manchester">Greater Manchester</option>
+						</optgroup>
+					
+						<optgroup label="H">
+							<option value="Hampshire">Hampshire</option>
+							<option value="Hertfordshire">Hertfordshire</option>
+						</optgroup>
+					
+						<optgroup label="I">
+							<option value="Isle of Wight">Isle of Wight</option>
+							<option value="Greater London">Greater London</option>
+							<option value="Greater Manchester">Greater Manchester</option>
+						</optgroup>
+					
+						<optgroup label="K">
+							<option value="Kent">Kent</option>
+						</optgroup>
+					
+					
+						<optgroup label="L">
+							<option value="Lancashire">Lancashire</option>
+							<option value="Leicestershire">Leicestershire</option>
+							<option value="Lincolnshire">Lincolnshire</option>
+						</optgroup>
+					
+						<optgroup label="M">
+							<option value="Merseyside">Merseyside</option>
+						</optgroup>
+					
+					
+						<optgroup label="N">
+							<option value="Norfolk">Norfolk</option>
+							<option value="North Yorkshire">North Yorkshire</option>
+							<option value="Northamptonshire">Northamptonshire</option>
+							<option value="Northumberland">Northumberland</option>
+							<option value="Nottinghamshire">Nottinghamshire</option>
+						</optgroup>
+					
+						<optgroup label="O">
+							<option value="Oxfordshire">Oxfordshire</option>
+						</optgroup>
+						
+						<optgroup label="R">
+							<option value="Rutland">Rutland</option>
+						</optgroup>
+					
+						<optgroup label="S">
+							<option value="Shropshire">Shropshire</option>
+							<option value="Somerset">Somerset</option>
+							<option value="South Yorkshire">South Yorkshire</option>
+							<option value="Staffordshire">Staffordshire</option>
+							<option value="Suffolk">Suffolk</option>
+							<option value="Surrey">Surrey</option>
+						</optgroup>
+						
+						<optgroup label="T">
+							<option value="Tyne and Wear">Tyne and Wear</option>
+						</optgroup>
+						
+						<optgroup label="W">
+							<option value="Warwickshire">Warwickshire</option>
+							<option value="West Midlands">West Midlands</option>
+							<option value="West Sussex">West Sussex</option>
+							<option value="West Yorkshire">West Yorkshire</option>
+							<option value="Wiltshire">Wiltshire</option>
+							<option value="Worcestershire">Worcestershire</option>
+						</optgroup>
+					
+					
+				</select>
+					
+					
+					<label for="post_c">Post Code</label>
+					<input type="text" id="post_c" name="user_post_code" placeholder="Required*" required>
+					
+			</fieldset> <!--contatc form ends-->
+		</main>	
+<div class="border_bottom"></div>
+
+		<fieldset class="topics"> <!--topics form starts-->
+				<legend>Newsletter</legend>
+					<label>Select the newsletters you would like to recieve</label>
+						<input type="checkbox" id="news_html" value="news" name="user_news">
+						<label class="li-topics" for="news_html">HTML News</label><br>
+					
+						<input type="checkbox" id="css" value="news" name="user_news">
+						<label class="li-topics" for="css">CSS News</label><br>
+					
+						<input type="checkbox" id="java" value="news" name="user_news">
+						<label class="li-topics" for="java">JavaScript News</label>
+					
+				<div class="format">
+						<label>Newsletter format</label>
+						<input type="radio" id="radio_html" value="format_html" name="user_format"><label for="radio_html" class="li-topics">HTML</label><br>
+					
+						<input type="radio" id="plain_text" value="format_plainText" name="user_format"><label for="plain_text" class="li-topics">Plain text</label>
+			
+				<div class="extra">
+						
+						<label for="textarea">Other topic you'd to hear about</label>
+						<textarea id="textarea" name="user_textarea"></textarea>
+						
+				</div>
+			</div>
+		</fieldset> <!--topics form ends-->
+		
+			<button type="submit">Sign Up</button>
+			
+			</form>  						<!--FORM ends-->
+			
+		</div>								<!--CONTAINER ends-->
+	<footer>
+		<p class="ft-text">&copy;Copy Right The Code Review</p>
+	</footer>
+</body>
+</html>
